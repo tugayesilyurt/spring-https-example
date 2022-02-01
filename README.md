@@ -27,16 +27,16 @@ keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -ext "SAN:c=DNS:
 
 - **Keytool**
 
-![Keytool](https://github.com/tugayesilyurt/spring-zipkin-cassandra/blob/main/assets/keytool.PNG)
+![Keytool](https://github.com/tugayesilyurt/spring-https-example/blob/main/assets/keytool.PNG)
 
 - **Bad Requet**
 
-![Badrequest](https://github.com/tugayesilyurt/spring-zipkin-cassandra/blob/main/assets/badrequest.PNG)
+![Badrequest](https://github.com/tugayesilyurt/spring-https-example/blob/main/assets/badrequest.PNG)
 
 - **Docker**
 
-![Docker](https://github.com/tugayesilyurt/spring-zipkin-cassandra/blob/main/assets/docker.PNG)
+![Docker](https://github.com/tugayesilyurt/spring-https-example/blob/main/assets/docker.PNG)
 	
 - **Postman**
 
-![Postman](https://github.com/tugayesilyurt/spring-zipkin-cassandra/blob/main/assets/postman.PNG)
+![Postman](https://github.com/tugayesilyurt/spring-https-example/blob/main/assets/postman.PNG)
