@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  client-service:
+    image: tugayesilyurt/client-service
+    container_name: client-service
+    build: 
+       context: ./client-service
+       dockerfile: Dockerfile
+    ports:
+      - "8020:8020"  
+  https-server-service:
+    image: tugayesilyurt/https-server-service
+    container_name: https-server-service
+    build: 
+       context: ./https-server-service
+       dockerfile: Dockerfile
+    ports:
+      - "8090:8090"       
+
